@@ -42,7 +42,7 @@ header::after{
 /* Section One Starts */
 
 .container{
-	background: url('../images/code.jpg') -100px ;
+	background: url('../images/code.jpg') ;
 	color: white;
 	height: 400px;
 }
