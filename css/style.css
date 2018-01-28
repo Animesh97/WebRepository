@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+}
+body{
+	margin: 0px;
+	font-family: sans-serif;
+}
+.colour{
+	color: #e8491d;
+}
+.head{
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background: #35424a;
+}
+header h1{
+	margin-top: 30px;
+	float: left;
+	font-size: 40px;
+}
+header ul{
+	float: right;
+	margin-top:40px;
+}
+header li{
+	display: inline;
+	padding: 20px;
+}
+header::after{
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/* Section One Starts */
+
+.container{
+	background: url('../images/code.jpg') -100px ;
+	color: white;
+	height: 400px;
+}
+.container h1{
+	/* border: 2px solid red; */
+	font-size: 40px;
+	padding-top: 90px;
+	padding-left: 40px;
+}
+.container p{
+	padding: 40px;
+	width: 500px;
+}
+
+/* Section Two Starts */
+
+section{
+	background: #35424a;
+	border-top: 2px solid red;
+}
+.subs{
+	height: 90px;	
+	width: 60%;
+	margin: 0 auto;
+}
+.subs span{
+	font-size: 30px;
+	float: left;
+	padding-top: 25px;
+	color: white;
+	font-weight: bold ;
+}
+.subs form{
+	float: right;
+	padding-top: 30px;
+}
+input{
+	height: 30px;
+	width: 250px;
+}
+button{
+	height: 36px;
+	width: 100px;
+	background-color: #e8491d;
+	color: white;
+	border: 0px;
+}
+
+/* Article Starts Here */
+.icon{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+.course{
+	width: 30%;
+	margin: 0 auto;
+	display: inline;
+	float: left;
+	text-align: center;
+}
+.course img{
+	width: 150px;
+	height: 150px
+	;
+	padding-left:10px; 
+}
+article::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Footer Starts Here */
+footer{
+	background-color: #e8491d;
+	height: 70px;
+	margin-top: 10px;
+}
+ .bottom{
+ 	width: 30%;
+ 	margin: 0 auto;
+ 	color: white;
+ 	font-size: 20px;
+ 	padding-top: 25px;
+ 	text-align: center;
+ }
