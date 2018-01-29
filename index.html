@@ -1,66 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tech Tutor</title>
+	<title>960 Grid Demo</title>
+	<link rel="stylesheet" href="css/960_12_col.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/text.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<div class="head">
-			<h1><span class="colour">Tech</span> Tutor</h1>
-			<nav>
+	<header class="clearfix band">
+		<div class="container_12">
+			<h1 class="grid_9">
+				<span class="highlight">Tech</span> Tutor
+			</h1>			
+			<nav class="grid_3 ">
 				<ul>
-				<li><span class="colour">Home</span></li>
-				<li>About</li>
-				<li>Services</li>
-				</ul>	
-			</nav>	
+					<li><a href="#"><span class="highlight">Home</span></a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
 	</header>
-
-	<section>
-		<div class="container">
+	<section class="main">
+		<div class="content">
 			<h1>
-				Become a Tech Savvy
+				Become A Tech Savvy
 			</h1>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat iure error libero at velit suscipit assumenda fugit animi voluptate, accusantium. Libero, sint, omnis. Ratione laboriosam harum deleniti nam sapiente modi!
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam minus adipisci quo molestiae facilis ab odit nobis quasi, sit quae, aspernatur corrupti. Consequuntur iusto doloribus laboriosam vero, debitis facere id!
 			</p>
 		</div>
 	</section>
-
-	<section>
-		<div class="subs">
-			<span>Subscribe Now</span>
-			<form action="">
-				<input type="text" placeholder="Enter Email Id">
-				<button>Subscribe</button>
-			</form>	
+	<section class="band">
+		<div class="container_12">
+			<h3 class="grid_6">
+				Subscribe Now
+			</h3>
+			<form class="grid_6">
+				<input type="text" placeholder="Enter your email id" class="textbox">
+				<input type="submit" value="Subscribe" class="buttons">
+			</form>
 		</div>
 	</section>
-
 	<article>
-		<div class="icon">
-			<div class="course">
-			<img src="images/angularlogo.png" alt="Angular JS">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laudantium doloribus totam maiores, voluptatum iste.</p>
+		<div class="container_12">
+			<div class="grid_4">
+				<img src="images/angularlogo.png" alt="Angular JS">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt itaque, mollitia blanditiis. Officiis magnam fugit doloribus vel odit quia nesciunt delectus ratione est, similique ut non officia rem repudiandae quisquam!
+				</p>
+			</div>
+			<div class="grid_4">
+				<img src="images/javalogo.png" alt="Java">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt itaque, mollitia blanditiis. Officiis magnam fugit doloribus vel odit quia nesciunt delectus ratione est, similique ut non officia rem repudiandae quisquam!
+				</p>
+			</div>
+			<div class="grid_4">
+				<img src="images/nodelogo.png" alt="Node JS">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt itaque, mollitia blanditiis. Officiis magnam fugit doloribus vel odit quia nesciunt delectus ratione est, similique ut non officia rem repudiandae quisquam!
+				</p>
+			</div>
+			<div class="grid_4">
+				<img src="images/php.jpg" alt="php">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt itaque, mollitia blanditiis. Officiis magnam fugit doloribus vel odit quia nesciunt delectus ratione est, similique ut non officia rem repudiandae quisquam!
+				</p>
+			</div>
+			<div class="grid_4">
+				<img src="images/salesforce.png" alt="Salesforce">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt itaque, mollitia blanditiis. Officiis magnam fugit doloribus vel odit quia nesciunt delectus ratione est, similique ut non officia rem repudiandae quisquam!
+				</p>
+			</div>
+			<div class="grid_4">
+				<img src="images/mongo.jpg" alt="Mongo DB">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt itaque, mollitia blanditiis. Officiis magnam fugit doloribus vel odit quia nesciunt delectus ratione est, similique ut non officia rem repudiandae quisquam!
+				</p>
+			</div>
 		</div>
-		<div class="course">
-			<img src="images/javalogo.png" alt="JAVA">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laudantium doloribus totam maiores, voluptatum iste.</p>
-		</div>
-		<div class="course">
-			<img src="images/nodelogo.png" alt="Node JS">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laudantium doloribus totam maiores, voluptatum iste.</p>
-		</div>
-		</div>		
 	</article>
-	<br><br>
 	<footer>
-		<div class="bottom">
-			<p>
-				Tech Tutor,Copyright &copy; 2018
-			</p>
+		<div>
+			Tech Tutor,Copyright &copy; 2018
 		</div>
 	</footer>
 </body>
