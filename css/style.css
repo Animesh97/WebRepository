@@ -61,6 +61,7 @@ form{
 .textbox{
 	height: 30px;
 	width: 250px;
+	padding-left: 5px;
 }
 .buttons{
 	width:100px;
@@ -69,6 +70,7 @@ form{
 	color:white;
 	border: 0px;
 }
+
 article img{
 	margin: 30px 0px;
 	padding-left:20px;
