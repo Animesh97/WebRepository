@@ -65,6 +65,9 @@ form{
 .buttons{
 	width:100px;
 	height: 36px;
+	background-color: #e8491d;
+	color:white;
+	border: 0px;
 }
 article img{
 	margin: 30px 0px;
